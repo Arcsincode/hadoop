@@ -439,6 +439,7 @@ export HADOOP_OS_TYPE=${HADOOP_OS_TYPE:-$(uname -s)}
 # export HADOOP_REGISTRYDNS_SECURE_EXTRA_OPTS="-jvm server"
 
 #export JAVA_HOME=/export/server/jdk1.8.0_361 
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-s390x
 # 文件最后添加 
 export HDFS_NAMENODE_USER=root 
 export HDFS_DATANODE_USER=root 
