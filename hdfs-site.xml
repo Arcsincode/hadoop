@@ -20,6 +20,6 @@
 <!-- 设置SNN进程运行机器位置信息 -->
 <property>
     <name>dfs.namenode.secondary.http-address</name>
-    <value>node1:62920</value>
+    <value>node1:26929</value>
 </property>
 </configuration>
