@@ -20,7 +20,7 @@
 <!-- 设置默认使用的文件系统 Hadoop支持file、HDFS、GFS、ali|Amazon云等文件系统 -->
 <property>
     <name>fs.defaultFS</name>
-    <value>hdfs://node_main:8020</value>
+    <value>hdfs://nodeMain:8020</value>
 </property>
 
 <!-- 设置Hadoop本地保存数据路径 -->
