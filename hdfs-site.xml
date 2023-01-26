@@ -17,6 +17,16 @@
 <!-- Put site-specific property overrides in this file. -->
 
 <configuration>
+<property>
+    <name>dfs.datanode.data.dir</name>
+    <value>/export/data/hadoop-3.3.0/dn</value>
+    <final>true</final>
+</property>
+<property>
+    <name>dfs.namenode.name.dir</name>
+    <value>/export/data/hadoop-3.3.0/nn</value>
+    <final>true</final>
+</property>
 <!-- 设置SNN进程运行机器位置信息 -->
 <property>
     <name>dfs.namenode.secondary.http-address</name>
