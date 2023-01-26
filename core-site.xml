@@ -26,7 +26,7 @@
 <!-- 设置Hadoop本地保存数据路径 -->
 <property>
     <name>hadoop.tmp.dir</name>
-    <value>/export/data/hadoop-3.3.0</value>
+    <value>/export/data/hadoop-3.3.0/tmp</value>
 </property>
 
 <!-- 设置HDFS web UI用户身份 -->
