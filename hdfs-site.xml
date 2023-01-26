@@ -18,6 +18,13 @@
 
 <configuration>
 <property>
+  <name>dfs.client.use.datanode.hostname</name>
+  <value>true</value>
+  <description>Whether clients should use datanode hostnames when
+    connecting to datanodes.
+  </description>
+</property>
+<property>
     <name>dfs.datanode.data.dir</name>
     <value>/export/data/hadoop-3.3.0/dn</value>
     <final>true</final>
