@@ -26,13 +26,13 @@
 <!-- MR程序历史服务地址 -->
 <property>
   <name>mapreduce.jobhistory.address</name>
-  <value>nodeMain:10020</value>
+  <value>arcsinszy:10020</value>
 </property>
  
 <!-- MR程序历史服务器web端地址 -->
 <property>
   <name>mapreduce.jobhistory.webapp.address</name>
-  <value>nodeMain:19888</value>
+  <value>arcsinszy:19888</value>
 </property>
 
 <property>
