@@ -18,7 +18,7 @@
 <!-- 设置YARN集群主角色运行机器位置 -->
 <property>
 	<name>yarn.resourcemanager.hostname</name>
-	<value>nodeMain</value>
+	<value>arcsinszy</value>
 </property>
 
 <property>
@@ -49,7 +49,7 @@
 <!-- 设置yarn历史服务器地址 -->
 <property>
     <name>yarn.log.server.url</name>
-    <value>http://nodeMain:19888/jobhistory/logs</value>
+    <value>http://arcsinszy:19888/jobhistory/logs</value>
 </property>
 
 <!-- 历史日志保存的时间 7天 -->
