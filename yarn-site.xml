@@ -25,6 +25,11 @@
     <name>yarn.nodemanager.aux-services</name>
     <value>mapreduce_shuffle</value>
 </property>
+	
+<property>
+        <name>yarn.nodemanager.resource.cpu-vcores</name>
+        <value>4</value>
+</property>
 
 <![CDATA[
 <!-- 是否将对容器实施物理内存限制 -->
@@ -45,12 +50,15 @@
   <name>yarn.log-aggregation-enable</name>
   <value>true</value>
 </property>
-
+	
+<![CDATA[
 <!-- 设置yarn历史服务器地址 -->
 <property>
     <name>yarn.log.server.url</name>
     <value>http://arcsinszy:19888/jobhistory/logs</value>
 </property>
+]]>
+	
 <property>
   <name>yarn.nodemanager.disk-health-checker.max-disk-utilization-per-disk-percentage</name>
   <value>98.5</value>
