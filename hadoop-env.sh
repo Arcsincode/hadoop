@@ -441,8 +441,8 @@ export HADOOP_OS_TYPE=${HADOOP_OS_TYPE:-$(uname -s)}
 export JAVA_HOME=/export/server/jdk1.8.0_361 
 #export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-s390x
 # 文件最后添加 
-export HDFS_NAMENODE_USER=root 
-export HDFS_DATANODE_USER=root 
-export HDFS_SECONDARYNAMENODE_USER=root 
-export YARN_RESOURCEMANAGER_USER=root 
-export YARN_NODEMANAGER_USER=root
+export HDFS_NAMENODE_USER=hadoop 
+export HDFS_DATANODE_USER=hadoop 
+export HDFS_SECONDARYNAMENODE_USER=hadoop 
+export YARN_RESOURCEMANAGER_USER=hadoop 
+export YARN_NODEMANAGER_USER=hadoop
